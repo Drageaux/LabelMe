@@ -1,0 +1,24 @@
+/*=====================*
+ * Bootstrap Overwrite *
+ *=====================*/
+
+
+/*========*
+ * Custom *
+ *========*/
+
+/* General */
+body {
+    font-family: "Crete Round", serif;
+}
+
+section {
+    padding-top: 150px;
+    height: 100%;
+    background: #fff;   
+    text-align: center;
+}
+
+section:nth-child(odd) {
+    background: #eee;
+}
