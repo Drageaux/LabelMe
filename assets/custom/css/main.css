@@ -1,11 +1,8 @@
-/*=====================*
- * Bootstrap Overwrite *
- *=====================*/
 
 
-/*========*
- * Custom *
- *========*/
+/*==========*
+ * Standard *
+ *==========*/
 
 /* General */
 body {
@@ -21,4 +18,14 @@ section {
 
 section:nth-child(odd) {
     background: #eee;
+}
+
+
+
+/*=======================*
+ * Media Queries <768px) *
+ *=======================*/
+
+@media screen and (max-device-width: 480px) and (max-width: 480px) {
+    
 }
